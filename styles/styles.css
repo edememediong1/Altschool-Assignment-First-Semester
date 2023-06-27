@@ -10,6 +10,7 @@
 :root{
     --main-background: #f8f7f7;
     --main-font: 'Gilroy-Medium', sans-serif;
+    --black: black;
 }
 
 body{
@@ -20,7 +21,19 @@ body{
 .nav-container{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
+    gap: 140px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--black);
+    margin: 20px;
+}
+
+.nav-button{
+    text-decoration: none;
 }
 
 
