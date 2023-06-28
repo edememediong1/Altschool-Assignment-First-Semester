@@ -23,7 +23,8 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 140px;
+    gap: 100px;
+    max-width: 100%;
 }
 
 nav a,.nav-button a{
