@@ -5,6 +5,7 @@
     padding: 0;
     border: 0;
     box-sizing: border;
+    max-width: 100%;
 }
 
 :root{
@@ -27,7 +28,7 @@ body{
     max-width: 100%;
 }
 
-nav a,.nav-button a{
+nav a{
     text-decoration: none;
     color: var(--black);
     margin: 10px;
@@ -35,7 +36,21 @@ nav a,.nav-button a{
 
 .nav-button{
     text-decoration: none;
+    margin: 10px;
 }
+
+.nav-button a{
+    text-decoration: none;
+    color: blue;
+    margin: 10px;
+
+}
+
+.nav-btn{
+    padding: 5px;
+    background-color: blue;
+}
+
 
 
 
