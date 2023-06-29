@@ -114,8 +114,18 @@ nav a{
     flex-shrink: 0;
     color: var(--blue);
 }
-
+/*----span-----*/
 span{
     color: var(--blue);
 }
 
+.small-text{
+    height: 105px;
+    width: 785px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Gilroy-Medium;    
+    line-height:28px;
+
+}
