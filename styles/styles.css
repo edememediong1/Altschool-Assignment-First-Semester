@@ -11,7 +11,11 @@
 :root{
     --main-background: #f8f7f7;
     --main-font: 'Gilroy-Medium', sans-serif;
+    --font-18: 18px;
+    --font-16: 16px;
+    --font-w400: 400;
     --black: black;
+    --blue: #0065FE;
 }
 
 body{
@@ -24,14 +28,18 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 100px;
-    max-width: 100%;
+    gap: 140px;
+    max-width: 1150px;
+    max-height: 44px;
+    margin: 0 auto;
+    margin-top: 12px;
 }
 
 nav a{
     text-decoration: none;
     color: var(--black);
     margin: 10px;
+    font-size: var(--font-18);
 }
 
 .nav-button{
@@ -41,14 +49,21 @@ nav a{
 
 .nav-button a{
     text-decoration: none;
-    color: blue;
+    color: var(--blue);
     margin: 10px;
+    font-size: var(--font-18);
 
 }
 
-.nav-btn{
-    padding: 5px;
-    background-color: blue;
+#nav-btn{
+    padding: 12px 24px;
+    background-color: var(--blue);
+    color: white;
+    width: 142px;
+    height: 44px;
+    font-weight: var(--font-w400);
+    font-size: var(--font-16);
+    border-radius: 100px;
 }
 
 
