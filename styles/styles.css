@@ -125,6 +125,11 @@ span{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    font-family: Gilroy-Medium;    
-    line-height:28px;
+    font-family: Gilroy-Medium; 
+}
+
+
+.bottom-icons{
+    display: flex;
+    gap: 2rem;
 }
