@@ -154,3 +154,14 @@ span{
     font-weight: var(--font-w400);
     color: var(--blue);
 }
+
+.card-container{
+    border: 1px solid black;
+    padding: 40px 60px;
+    width: 768px;
+}
+
+.link{
+    display: flex;
+    margin: 0;
+}
