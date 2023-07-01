@@ -17,6 +17,7 @@
     --font-48: 48px;
     --black: black;
     --blue: #0065FE;
+    --white: #FFFFFF;
 }
 
 body{
@@ -121,6 +122,7 @@ span{
 
 .small-text{
     height: 105px;
+    align-items: center;
     width: 785px;
     text-align: center;
     font-size: 18px;
@@ -128,8 +130,27 @@ span{
     font-family: Gilroy-Medium; 
 }
 
-
 .bottom-icons{
     display: flex;
-    gap: 2rem;
+    gap: 56px;
+    align-items: center;
+}
+
+.bottom-icons a button{
+    padding: 12px 24px;
+    height: 44px;
+    width: 142px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: var(--font-16);
+    border-radius: 100px;
+}
+
+.bottom-icons a{
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: var(--font-16);
+    font-weight: var(--font-w400);
+    color: var(--blue);
 }
