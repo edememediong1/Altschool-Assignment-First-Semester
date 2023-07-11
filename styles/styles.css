@@ -165,3 +165,11 @@ span{
     display: flex;
     margin: 0;
 }
+
+.organization img{
+    margin-left: -10px;
+}
+
+.link .arrow{
+    margin: 20px;
+}
