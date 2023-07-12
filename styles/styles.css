@@ -229,3 +229,35 @@ span{
     font-style: normal;
 }
 
+/* -------------------Features------------------ */
+.features-container{
+    display: flex;
+    align-items: flex-start;
+    width: 1202px;
+    height: 504px;
+    margin: auto;
+    gap: 96px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    width: 398px;
+    height: 256px;
+    gap: 16px;
+}
+
+.summary div{
+    display: flex;
+    gap: 16px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.line{
+    height: 48px;
+}
+
+.summary p{
+    margin-left: 16px;
+}
