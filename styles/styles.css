@@ -328,9 +328,21 @@ span{
     width: 560px;
 }
 
-.pricing-info p{
+.pricing-info p {
     margin-left: 16px;
     text-align: center;
     width: 556px;
 }
 
+.pricing-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid black;
+    width: 194px;
+    /* height: 368px; */
+    padding: 24px 98px 45px 87px;
+}
