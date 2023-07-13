@@ -299,3 +299,38 @@ span{
 .feature h3{
     margin-bottom: 16px;
 }
+
+.feature p{
+    width: 340px;
+}
+
+/* -----------Pricing Container-------- */
+
+.pricing-info{
+    width: 576px;
+    height: 108px;
+    margin: auto;
+    align-items: center;
+}
+
+.price-head{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 8px;
+    font-size: 40px;
+}
+
+.price-head img{
+    height: 48px;
+}
+
+.price-head h4{
+    width: 560px;
+}
+
+.pricing-info p{
+    margin-left: 16px;
+    text-align: center;
+    width: 556px;
+}
+
